@@ -1,0 +1,198 @@
+<mjml>
+    <mj-head>
+        <mj-title>Ваш заказ №{{lead.id}} готов к выдаче</mj-title>
+        <mj-preview>Заберите его в офисе THE CULTT</mj-preview>
+
+        <mj-style>
+            .header__link { margin: 15px; color: #000000; text-decoration: none;
+            font-size: 14px; } .header__link.active { color: #285141;
+            font-weight: 700; } @media screen and ( max-width: 500px ) {
+            .header__link { margin: 5px; font-size: 12px; } }
+        </mj-style>
+    </mj-head>
+
+    <mj-body width="600px" background-color="#F6F4F0">
+        <mj-section padding="20px 0 10px 0" background-color="#F1EDE8">
+            <mj-column>
+                <mj-image
+                    align="center"
+                    href=""
+                    src="https://theculttserver.ru/static/email_images/logo.png"
+                    width="125px"
+                    padding-bottom="25px" />
+
+                <mj-text>
+                    <div class="header" style="text-align: center">
+                        <a
+                            class="header__link"
+                            href="https://thecultt.com/catalog?categories=%D0%A1%D1%83%D0%BC%D0%BA%D0%B8"
+                            >Сумки</a
+                        >
+                        <a
+                            class="header__link"
+                            href="https://thecultt.com/catalog?categories=%D0%90%D0%BA%D1%81%D0%B5%D1%81%D1%81%D1%83%D0%B0%D1%80%D1%8B"
+                            >Аксессуары</a
+                        >
+                        <a
+                            class="header__link"
+                            href="https://thecultt.com/catalog?categories=%D0%9E%D0%B1%D1%83%D0%B2%D1%8C"
+                            >Обувь</a
+                        >
+                    </div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 0 20px 0" background-color="#F1EDE8">
+            <mj-column>
+                <mj-text>
+                    <div class="main" style="text-align: center">
+                        <h2
+                            style="
+                                font-size: 17px;
+                                text-align: center;
+                                margin-bottom: 15px;
+                            ">
+                            Ваш заказ №{{lead.id}} готов к выдаче
+                        </h2>
+                        <p
+                            style="
+                                margin-left: auto;
+                                margin-right: auto;
+
+                                width: 90%;
+                                font-size: 14px;
+                                text-align: center;
+                                line-height: 1.5em;
+                                margin-bottom: 30px;
+                            ">
+                            Ваш заказ собран и готов к выдаче в офисе THE CULTT
+                            по адресу: Трубная 25 стр 3, 2 подъезд, 3 этаж. При
+                            входе в здание есть наша вывеска «THE CULTT» (вход
+                            находится рядом с детской площадкой, а не со стороны
+                            шлагбаума).
+                            <br />
+                            График работы: С 11:00 до 20:00, с понедельника по
+                            воскресенье.
+                        </p>
+
+                        <img src="https://storage.yandexcloud.net/the-cultt-docs/%D0%A4%D0%B0%D0%B9%D0%BB%D1%8B%20%D0%A4%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8C%202024/The_Cultt%2C_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_%D1%81%D1%83%D0%BC%D0%BE%D0%BA_%D0%B8_%D1%87%D0%B5%D0%BC%D0%BE%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%2C_%D0%A2%D1%80%D1%83%D0%B1%D0%BD%D0%B0%D1%8F_%D1%83%D0%BB_%2C_25%2C_%D1%81%D1%82%D1%80_3%2C_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0.png" style="width: 100%; border: 1px solid #000000; border-radius: 12px;" />
+                    </div>
+                </mj-text>
+
+                <mj-text>
+                    <div
+                        style="
+                            text-align: center;
+                            background-color: #f6f4f0;
+                            padding: 8px;
+                            border-radius: 9px;
+                        ">
+                        <span style="font-size: 14px; line-height: 1.5em">
+                            Отслеживайте статусы заказов и продаж, сохраняйте
+                            избранные лоты, редактируйте данные профиля в
+                            <a
+                                href="https://thecultt.com/cabinet/history"
+                                style="
+                                    color: #000000;
+                                    text-decoration: underline;
+                                "
+                                >личном кабинете</a
+                            >
+                        </span>
+                    </div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 0 20px 0" background-color="#F1EDE8">
+            <mj-column>
+                <mj-text>
+                    <div
+                        class="main"
+                        style="
+                            padding: 10px 40px 25px 40px;
+                            background-color: #f6f4f0;
+                            border-radius: 24px;
+                            border: 0.6px dashed #838383;
+                            text-align: center;
+                        ">
+                        <h2
+                            style="
+                                font-size: 20px;
+                                margin-bottom: 15px;
+                                color: #285141;
+                                line-height: 1.3em;
+                            ">
+                            Подпишитесь на рассылку THE CULTT
+                            <br />
+                            и получите гайд по уходу за сумками
+                        </h2>
+
+                        <img
+                            src="https://storage.yandexcloud.net/prod-thecultt/Baner1.jpg"
+                            width="175"
+                            style="
+                                display: block;
+                                margin: 0 auto;
+                                margin-bottom: 15px;
+                            " />
+
+                        <a
+                            href="https://thecultt.com/subscribe?utm_source=email&utm_medium=noreply&utm_campaign=subscribe"
+                            style="
+                                width: 220px;
+                                display: inline-block;
+                                color: #ffffff;
+                                text-decoration: none;
+                                background-color: #285141;
+                                padding: 16px 26px;
+                                border-radius: 12px;
+                                font-size: 16px;
+                            "
+                            >Подписаться</a
+                        >
+                    </div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="10px 0">
+            <mj-column>
+                <mj-text>
+                    <div
+                        class="footer"
+                        style="text-align: center; line-height: 1.5em">
+                        <p style="font-size: 14px; margin-bottom: 25px">
+                            Спасибо, Команда THE CULTT
+                            <br />
+                            <a
+                                href="tel:+7 499 992 80 47"
+                                style="color: #000000"
+                                >+7 499 992 80 47</a
+                            >
+                            <br />
+                            <a href="mailto:thecultt.com" style="color: #285141"
+                                >thecultt.com</a
+                            >
+                        </p>
+
+                        <p>
+                            <b> Телеграм-канал с новинками </b>
+                        </p>
+
+                        <a href="https://t.me/thecultt">
+                            <img
+                                src="https://theculttserver.ru/static/email_images/tg.png"
+                                width="28" />
+                        </a>
+
+                        <p style="color: #838383">
+                            © Все права защищены 2023, THE CULTT
+                        </p>
+                    </div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

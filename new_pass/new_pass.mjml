@@ -1,0 +1,242 @@
+<mjml>
+    <mj-head>
+        <mj-title>Новый пароль - THE CULTT!</mj-title>
+        <mj-preview>Новый пароль - THE CULTT!</mj-preview>
+
+        <mj-style> </mj-style>
+    </mj-head>
+
+    <mj-body width="600px" background-color="#F6F4F0">
+        <mj-section padding="20px 0" background-color="#F1EDE8">
+            <mj-column>
+                <mj-image
+                    align="center"
+                    href="https://thecultt.com"
+                    src="https://theculttserver.ru/static/email_images/logo.png"
+                    width="125px"
+                    padding-bottom="25px" />
+
+                <mj-text>
+                    <div class="header" style="text-align: center">
+                        <a
+                            class="header__link"
+                            href="https://thecultt.com/brands"
+                            style="
+                                margin: 0 15px;
+                                color: #000000;
+                                text-decoration: none;
+                                font-size: 14px;
+                            "
+                            >Бренды</a
+                        >
+                        <a
+                            class="header__link"
+                            href="https://thecultt.com/catalog?categories=%D0%A1%D1%83%D0%BC%D0%BA%D0%B8"
+                            style="
+                                margin: 0 15px;
+                                color: #000000;
+                                text-decoration: none;
+                                font-size: 14px;
+                            "
+                            >Сумки</a
+                        >
+                        <a
+                            class="header__link"
+                            href="https://thecultt.com/catalog?categories=%D0%90%D0%BA%D1%81%D0%B5%D1%81%D1%81%D1%83%D0%B0%D1%80%D1%8B"
+                            style="
+                                margin: 0 15px;
+                                color: #000000;
+                                text-decoration: none;
+                                font-size: 14px;
+                            "
+                            >Аксессуары</a
+                        >
+                        <a
+                            class="header__link"
+                            href="https://thecultt.com/catalog?categories=%D0%9E%D0%B1%D1%83%D0%B2%D1%8C"
+                            style="
+                                margin: 0 15px;
+                                color: #000000;
+                                text-decoration: none;
+                                font-size: 14px;
+                            "
+                            >Обувь</a
+                        >
+                        <a
+                            class="header__link active"
+                            href="https://thecultt.com/sell"
+                            style="
+                                margin: 0 15px;
+                                color: #285141;
+                                font-size: 14px;
+                                font-weight: 700;
+                            "
+                            >Продать</a
+                        >
+                    </div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 0 20px 0" background-color="#F1EDE8">
+            <mj-column>
+                <mj-text>
+                    <div
+                        class="main"
+                        style="
+                            padding: 25px 40px;
+                            background-color: #f6f4f0;
+                            border-radius: 24px;
+                            border: 0.6px dashed #838383;
+                            text-align: center;
+                        ">
+                        <h2 style="font-size: 16px; margin-bottom: 20px">
+                            Здравствуйте, Анна
+                        </h2>
+
+                        <p
+                            style="
+                                font-size: 14px;
+                                margin-bottom: 25px;
+                                line-height: 1.5em;
+                            ">
+                            Вы запросили восстановление пароля на сайте
+                            thecultt.com, указав электронный адрес: {email}
+                        </p>
+
+                        <p
+                            style="
+                                font-size: 14px;
+                                margin-bottom: 25px;
+                                line-height: 1.5em;
+                            ">
+                            Для смены пароля перейдите по ссылке:
+                        </p>
+
+                        <a
+                            href="{hash}"
+                            style="
+                                display: inline-block;
+                                color: #ffffff;
+                                text-decoration: none;
+                                background-color: #285141;
+                                padding: 16px 26px;
+                                border-radius: 12px;
+                                font-size: 16px;
+                            "
+                            >Задать новый пароль</a
+                        >
+
+                        <p
+                            style="
+                                font-size: 14px;
+                                margin-top: 25px;
+                                line-height: 1.5em;
+                            ">
+                            Отслеживайте статусы заказов и продаж, сохраняйте
+                            избранные лоты, редактируйте данные профиля в
+                            <a
+                                href="https://thecultt.com/cabinet/history"
+                                style="
+                                    color: #000000;
+                                    text-decoration: underline;
+                                "
+                                >личном кабинете</a
+                            >
+                        </p>
+                    </div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+		
+        <mj-section padding="0 0 20px 0" background-color="#F1EDE8">
+            <mj-column>
+                <mj-text>
+                    <div
+                        class="main"
+                        style="
+                            padding: 10px 40px 25px 40px;
+                            background-color: #f6f4f0;
+                            border-radius: 24px;
+                            border: 0.6px dashed #838383;
+                            text-align: center;
+                        ">
+                        <h2
+                            style="
+                                font-size: 20px;
+                                margin-bottom: 15px;
+                                color: #285141;
+                                line-height: 1.3em;
+                            ">
+                            Подпишитесь на рассылку THE CULTT
+                            <br />
+                            и получите гайд по уходу за сумками
+                        </h2>
+
+                        <img
+                            src="https://storage.yandexcloud.net/prod-thecultt/Baner1.jpg"
+                            width="175"
+                            style="
+                                display: block;
+                                margin: 0 auto;
+                                margin-bottom: 15px;
+                            " />
+
+                        <a
+                            href="https://thecultt.com/subscribe?utm_source=email&utm_medium=noreply&utm_campaign=subscribe"
+                            style="
+								width: 220px;
+                                display: inline-block;
+                                color: #ffffff;
+                                text-decoration: none;
+                                background-color: #285141;
+                                padding: 16px 26px;
+                                border-radius: 12px;
+                                font-size: 16px;
+                            "
+                            >Подписаться</a
+                        >
+                    </div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="10px 0">
+            <mj-column>
+                <mj-text>
+                    <div
+                        class="footer"
+                        style="text-align: center; line-height: 1.5em">
+                        <p style="font-size: 14px; margin-bottom: 25px">
+                            Спасибо, Команда THE CULTT
+                            <br />
+                            <a
+                                href="tel:+7 499 992 80 47"
+                                style="color: #000000"
+                                >+7 499 992 80 47</a
+                            >
+                            <br />
+                            <a href="mailto:thecultt.com" style="color: #285141"
+                                >thecultt.com</a
+                            >
+                        </p>
+
+                        <p>
+                            <b> Телеграм-канал с новинками </b>
+                        </p>
+
+                        <a href="https://t.me/thecultt">
+                            <img
+                                src="https://theculttserver.ru/static/email_images/tg.png"
+                                width="28" />
+                        </a>
+
+                        <p style="color: #838383">
+                            © Все права защищены 2023, THE CULTT
+                        </p>
+                    </div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
